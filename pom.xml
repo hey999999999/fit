@@ -128,22 +128,22 @@
     </pluginRepository>
   </pluginRepositories>
   <build>
-    <sourceDirectory>C:\workspace_temp\fit\src\main\java</sourceDirectory>
-    <scriptSourceDirectory>C:\workspace_temp\fit\src\main\scripts</scriptSourceDirectory>
-    <testSourceDirectory>C:\workspace_temp\fit\src\test\java</testSourceDirectory>
-    <outputDirectory>C:\workspace_temp\fit\target\classes</outputDirectory>
-    <testOutputDirectory>C:\workspace_temp\fit\target\test-classes</testOutputDirectory>
+    <sourceDirectory>src\main\java</sourceDirectory>
+    <scriptSourceDirectory>src\main\scripts</scriptSourceDirectory>
+    <testSourceDirectory>src\test\java</testSourceDirectory>
+    <outputDirectory>target\classes</outputDirectory>
+    <testOutputDirectory>target\test-classes</testOutputDirectory>
     <resources>
       <resource>
-        <directory>C:\workspace_temp\fit\src\main\resources</directory>
+        <directory>src\main\resources</directory>
       </resource>
     </resources>
     <testResources>
       <testResource>
-        <directory>C:\workspace_temp\fit\src\test\resources</directory>
+        <directory>src\test\resources</directory>
       </testResource>
     </testResources>
-    <directory>C:\workspace_temp\fit\target</directory>
+    <directory>target</directory>
     <finalName>fit-0.0.1-SNAPSHOT</finalName>
     <pluginManagement>
       <plugins>
@@ -294,7 +294,7 @@
               <goal>site</goal>
             </goals>
             <configuration>
-              <outputDirectory>C:\workspace_temp\fit\target\site</outputDirectory>
+              <outputDirectory>target\site</outputDirectory>
               <reportPlugins>
                 <reportPlugin>
                   <groupId>org.apache.maven.plugins</groupId>
@@ -310,7 +310,7 @@
               <goal>deploy</goal>
             </goals>
             <configuration>
-              <outputDirectory>C:\workspace_temp\fit\target\site</outputDirectory>
+              <outputDirectory>target\site</outputDirectory>
               <reportPlugins>
                 <reportPlugin>
                   <groupId>org.apache.maven.plugins</groupId>
@@ -321,7 +321,7 @@
           </execution>
         </executions>
         <configuration>
-          <outputDirectory>C:\workspace_temp\fit\target\site</outputDirectory>
+          <outputDirectory>target\site</outputDirectory>
           <reportPlugins>
             <reportPlugin>
               <groupId>org.apache.maven.plugins</groupId>
@@ -333,6 +333,6 @@
     </plugins>
   </build>
   <reporting>
-    <outputDirectory>C:\workspace_temp\fit\target\site</outputDirectory>
+    <outputDirectory>target\site</outputDirectory>
   </reporting>
 </project>
